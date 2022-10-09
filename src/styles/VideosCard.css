@@ -1,0 +1,42 @@
+.VideosCard{
+    width: 100%;
+    height: 43vh;
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.VideosCard:hover{
+    transform: translateY(-0.5vmax);
+    box-shadow: 0 6px 15px rgb(92, 91, 91);
+
+}
+
+.VideosCard a{
+    display: flex;
+    justify-content: center;
+    
+    transition: all 0.5s;
+    
+}
+.VideosCard a:hover{
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 100%;
+
+    fill: orangered;
+    
+}
+.VideosCard p{
+    font-size: 20px;
+    margin: 1vmax 0 0 1vmax;
+    font-weight: 700;
+    transition: all 0.4s;
+
+}
+.VideosCard p:hover{
+    transform: translateY(-0.3vmax);
+    color: orangered;
+}

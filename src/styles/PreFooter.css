@@ -1,0 +1,110 @@
+.PreFooter{
+    margin: 5vmax 0 0 0 ;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.PreFooter > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+
+.PreFooter > div:hover svg{
+    fill: rgb(0, 0, 0)
+}
+.PreFooter > div:hover p{
+    color: black;
+}
+.PreFooter svg{
+    /* display: flex;
+    align-items: center; */
+    transform: scale(1) translateY(-0.2vmax);
+    fill: rgb(92, 89, 89);
+    margin: 2vmax;
+}
+
+
+/* ...............PreFooter2.................  */
+
+.PreFooter2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 150px;
+}
+.PreFooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PreFooter2 >  div > p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+.PreFooter2 >  div > span{
+    color: rgb(63, 62, 62);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+.PreFooter2 > div > div > input{
+    border: none;
+    padding: 0.5vmax;
+    background-color: white;
+    outline: none;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.PreFooter2 > div > div > button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: white;
+    outline: none;
+    
+}
+.PreFooter2 > div > div{
+    border: 0.5px solid gray;
+}
+
+.PreFooter2 > div:nth-child(2) > span{
+    width: 22vmax;
+}
+
+.PreFooter2 > div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.PreFooter2 > div:nth-child(3) > p{
+width: 14vmax;
+}
+
+.PreFooter2 > div:nth-child(3) > span{
+width: 14vmax;
+}
+.PreFooter2 > div:nth-child(4){
+    flex-direction: row;
+}
+.PreFooter2 > div:nth-child(4) > svg{
+    cursor: pointer;
+    margin: 1vmax;
+    transition: all 0.5s;
+    border-radius: 100%;
+    border: none;
+
+}
+.PreFooter2 > div:nth-child(4) > svg:hover{
+    transform: translateY(-0.5vmax);
+    box-shadow: 0 6px 6px rgb(82, 81, 81);
+
+}
+
+
+
